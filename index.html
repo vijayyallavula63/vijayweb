@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Contact Us</h2>
+        <form id="ContactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="Email" id="Email" placeholder="Your Email" required>
+            <textarea id="your message" placeholder="Your message" required></textarea>
+            <button type="submit">submit</button>
+            <p id="formMessage"></p>
+
+        </form>
+
+    </div>
+    <div class="layout">
+        <nav>Navigator</nav>
+        <main>Main Content</main>
+        <aside>Sidebar</aside>
+        <footer>Footer</footer>
+    </div>
+    <div class="todo">
+        <h3>To-Do List</h3>
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
